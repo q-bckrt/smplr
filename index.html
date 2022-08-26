@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="engine.js" defer></script>
+    <title>AKAI MPC</title>
+</head>
+<body>
+<div class="navbar">
+    <div class="navbar_start">
+        DRM_SMPLR.
+    </div>
+        <div class="stripe stripe1"></div>
+        <div class="stripe stripe2"></div>
+        <div class="stripe stripe3"></div>
+
+    
+</div>
+<div class="body_wrapper">
+    <div class="menu"></div>
+    <div class="mpc_frame">
+        <div class="pads_section">
+            <div class="pads_row"> <!-- ROW 1-->
+                <div class="pad" data-key="49" id="perc 1">
+                    <p class="smp_name"></p><p class="smp_key">1</p>
+                </div>
+                <div class="pad" data-key="50" id="perc 2">
+                    <p class="smp_name"></p><p class="smp_key">2</p>
+
+                </div>
+                <div class="pad" data-key="51" id="perc 3">
+                    <p class="smp_name"></p><p class="smp_key">3</p>
+
+                </div>
+                <div class="pad" data-key="52" id="fx">
+                    <p class="smp_name"></p><p class="smp_key">4</p>
+
+                </div>
+            </div>
+            <div class="pads_row"> <!-- ROW 2-->
+                <div class="pad" data-key="65" id="tom 0">
+                    <p class="smp_name"></p><p class="smp_key">A</p>
+                </div>
+                <div class="pad" data-key="90" id="tom 1">
+                    <p class="smp_name"></p><p class="smp_key">Z</p>
+                </div>
+                <div class="pad" data-key="69" id="tom 2">
+                    <p class="smp_name"></p><p class="smp_key">E</p>
+                </div>
+                <div class="pad" data-key="82" id="tom 3">
+                    <p class="smp_name"></p><p class="smp_key">R</p>
+                </div>
+            </div>
+            <div class="pads_row"> <!-- ROW 3-->
+                <div class="pad" data-key="81" id="boom">
+                    <p class="smp_name"></p><p class="smp_key">Q</p>
+                </div>
+                <div class="pad" data-key="83" id="clap">
+                    <p class="smp_name"></p><p class="smp_key">S</p>
+                </div>
+                <div class="pad" data-key="68" id="ride">
+                    <p class="smp_name"></p><p class="smp_key">D</p>
+                </div>
+                <div class="pad" data-key="70" id="crash">
+                    <p class="smp_name"></p><p class="smp_key">F</p>
+                </div>
+            </div>
+            <div class="pads_row"> <!-- ROW 4-->
+                <div class="pad" data-key="87" id="kick">
+                    <p class="smp_name"></p><p class="smp_key">W</p>
+                </div>
+                <div class="pad" data-key="88" id="snare">
+                    <p class="smp_name"></p><p class="smp_key">X</p>
+                </div>
+                <div class="pad" data-key="67" id="hatcl">
+                    <p class="smp_name"></p><p class="smp_key">C</p>
+                </div>
+                <div class="pad" data-key="86" id="hatop">
+                    <p class="smp_name"></p><p class="smp_key">V</p>
+                </div>
+            </div>
+        </div>
+        <div class="control_section">
+            <div class="brand_name">qbckrt</div>
+            <div class="lcd_screen">
+                <div class="lcd_text"></div>
+            </div>
+            <div class="control_panel">
+                <div class="wheel">
+                    <!-- <img src="./bear-svgrepo-com.svg" class="bear"> -->
+                </div>
+                <div class="control_buttons">
+                    <div class="btn btn_2"></div>
+                    <div class="btn btn_1"></div>
+                    <div class="btn btn_3"></div>
+                    <div class="btn btn_4"></div>
+                    <div class="btn btn_5"></div>
+                    <div class="btn btn_6"></div>
+                </div>
+            </div>
+        </div> 
+    </div>
+</div>
+    <!-- AUDIO FILES -->
+    <!-- ROW 1 -->
+    <audio src="./samples/perc1.wav" data-key="49"></audio>
+    <audio src="./samples/perc2.wav" data-key="50"></audio>
+    <audio src="./samples/perc4.wav" data-key="51"></audio>
+    <audio src="./samples/fx1.wav" data-key="52"></audio>
+    <!-- ROW 2 -->
+    <audio src="./samples/tom0.wav" data-key="65"></audio>
+    <audio src="./samples/tom1.wav" data-key="90"></audio>
+    <audio src="./samples/tom2.wav" data-key="69"></audio>
+    <audio src="./samples/tom3.wav" data-key="82"></audio>
+    <!-- ROW 3 -->
+    <audio src="./samples/kick_2.wav" data-key="81"></audio>
+    <audio src="./samples/clap_1.wav" data-key="83"></audio>
+    <audio src="./samples/ride_1.wav" data-key="68"></audio>
+    <audio src="./samples/crash_1.wav" data-key="70"></audio>
+    <!-- ROW 4 -->
+    <audio src="./samples/kick_1.wav" data-key="87"></audio>
+    <audio src="./samples/snare_1.wav" data-key="88"></audio>
+    <audio src="./samples/hhc_1.wav" data-key="67"></audio>
+    <audio src="./samples/hho_1.wav" data-key="86"></audio>
+</body>
+</html>
