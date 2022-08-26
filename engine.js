@@ -20,8 +20,8 @@ function keyOff(e) {
     pad.classList.remove('push_btn');
 }
 
-window.addEventListener("keydown", playSample);
-window.addEventListener("keyup", removeRed);
+window.addEventListener("keydown", keyOn);
+window.addEventListener("keyup", keyOff);
 
 //when the mouse over on pad, show momentarily its name on the lcd screen.
 
